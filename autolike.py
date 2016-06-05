@@ -62,7 +62,7 @@ def get_user_id_from_name(name):
             'https://api.instagram.com/v1/users/search',
             params={'q': name}
         )['data']
-        if d['username'] == 'veganbondwife'][0]
+        if d['username'] == USER_NAME_TO_GIVE_LOTS_OF_LIKES][0]
 
 
 def enable_requests_logging():
